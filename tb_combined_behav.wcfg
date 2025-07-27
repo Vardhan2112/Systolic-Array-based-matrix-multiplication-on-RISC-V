@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_combined_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_combined" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="5,912.050 ns"></ZoomStartTime>
+      <ZoomEndTime time="6,042.951 ns"></ZoomEndTime>
+      <Cursor1Time time="6,002.500 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="141"></NameColumnWidth>
+      <ValueColumnWidth column_width="86"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="66" />
+   <wave_markers>
+      <marker time="6005000" label="" />
+      <marker time="5917500" label="" />
+      <marker time="6007500" label="" />
+      <marker time="5932500" label="" />
+      <marker time="5940000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_combined/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/clk_50" type="logic">
+      <obj_property name="ElementShortName">clk_50</obj_property>
+      <obj_property name="ObjectShortName">clk_50</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/start_switch" type="logic">
+      <obj_property name="ElementShortName">start_switch</obj_property>
+      <obj_property name="ObjectShortName">start_switch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/init_switch" type="logic">
+      <obj_property name="ElementShortName">init_switch</obj_property>
+      <obj_property name="ObjectShortName">init_switch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/rst_switch" type="logic">
+      <obj_property name="ElementShortName">rst_switch</obj_property>
+      <obj_property name="ObjectShortName">rst_switch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/PC" type="array">
+      <obj_property name="ElementShortName">PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/PC_4" type="array">
+      <obj_property name="ElementShortName">PC_4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_4[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/ID_STAGE/double_matr_r" type="logic">
+      <obj_property name="ElementShortName">double_matr_r</obj_property>
+      <obj_property name="ObjectShortName">double_matr_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/ID_STAGE/stall" type="logic">
+      <obj_property name="ElementShortName">stall</obj_property>
+      <obj_property name="ObjectShortName">stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/ID_STAGE/npu_stall" type="logic">
+      <obj_property name="ElementShortName">npu_stall</obj_property>
+      <obj_property name="ObjectShortName">npu_stall</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/ID_STAGE/EN_NPU" type="logic">
+      <obj_property name="ElementShortName">EN_NPU</obj_property>
+      <obj_property name="ObjectShortName">EN_NPU</obj_property>
+      <obj_property name="CustomSignalColor">#008000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/EN_NPU" type="logic">
+      <obj_property name="ElementShortName">EN_NPU</obj_property>
+      <obj_property name="ObjectShortName">EN_NPU</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/back_to_cpu" type="logic">
+      <obj_property name="ElementShortName">back_to_cpu</obj_property>
+      <obj_property name="ObjectShortName">back_to_cpu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/en" type="logic">
+      <obj_property name="ElementShortName">en</obj_property>
+      <obj_property name="ObjectShortName">en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/INST" type="array">
+      <obj_property name="ElementShortName">INST[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INST[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/ID_STAGE/INST" type="array">
+      <obj_property name="ElementShortName">INST[31:0]</obj_property>
+      <obj_property name="ObjectShortName">INST[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/ID_STAGE/matA_addr" type="array">
+      <obj_property name="ElementShortName">matA_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">matA_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/ID_STAGE/matB_addr" type="array">
+      <obj_property name="ElementShortName">matB_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">matB_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/ID_STAGE/matC_addr" type="array">
+      <obj_property name="ElementShortName">matC_addr[9:0]</obj_property>
+      <obj_property name="ObjectShortName">matC_addr[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/ID_STAGE/npu_stalling1" type="logic">
+      <obj_property name="ElementShortName">npu_stalling1</obj_property>
+      <obj_property name="ObjectShortName">npu_stalling1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/ID_STAGE/npu_stalling2" type="logic">
+      <obj_property name="ElementShortName">npu_stalling2</obj_property>
+      <obj_property name="ObjectShortName">npu_stalling2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/ID_STAGE/npu_stalling3" type="logic">
+      <obj_property name="ElementShortName">npu_stalling3</obj_property>
+      <obj_property name="ObjectShortName">npu_stalling3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/cycle1" type="logic">
+      <obj_property name="ElementShortName">cycle1</obj_property>
+      <obj_property name="ObjectShortName">cycle1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/cycle2" type="logic">
+      <obj_property name="ElementShortName">cycle2</obj_property>
+      <obj_property name="ObjectShortName">cycle2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/cycle3" type="logic">
+      <obj_property name="ElementShortName">cycle3</obj_property>
+      <obj_property name="ObjectShortName">cycle3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/mat_src1" type="array">
+      <obj_property name="ElementShortName">mat_src1[9:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_src1[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/mat_src2" type="array">
+      <obj_property name="ElementShortName">mat_src2[9:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_src2[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/mat_rd" type="array">
+      <obj_property name="ElementShortName">mat_rd[9:0]</obj_property>
+      <obj_property name="ObjectShortName">mat_rd[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/matA" type="array">
+      <obj_property name="ElementShortName">matA[9:0]</obj_property>
+      <obj_property name="ObjectShortName">matA[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/matB" type="array">
+      <obj_property name="ElementShortName">matB[9:0]</obj_property>
+      <obj_property name="ObjectShortName">matB[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_CPU/matC" type="array">
+      <obj_property name="ElementShortName">matC[9:0]</obj_property>
+      <obj_property name="ObjectShortName">matC[9:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/mem_init" type="array">
+      <obj_property name="ElementShortName">mem_init[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_init[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/src1_addr" type="array">
+      <obj_property name="ElementShortName">src1_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">src1_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/src2_addr" type="array">
+      <obj_property name="ElementShortName">src2_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">src2_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/rd_addr" type="array">
+      <obj_property name="ElementShortName">rd_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/a1" type="array">
+      <obj_property name="ElementShortName">a1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/a2" type="array">
+      <obj_property name="ElementShortName">a2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/a3" type="array">
+      <obj_property name="ElementShortName">a3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">a3[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/b1" type="array">
+      <obj_property name="ElementShortName">b1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/b2" type="array">
+      <obj_property name="ElementShortName">b2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/b3" type="array">
+      <obj_property name="ElementShortName">b3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">b3[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/c1" type="array">
+      <obj_property name="ElementShortName">c1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c1[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/c2" type="array">
+      <obj_property name="ElementShortName">c2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c2[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/c3" type="array">
+      <obj_property name="ElementShortName">c3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c3[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/c4" type="array">
+      <obj_property name="ElementShortName">c4[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c4[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/c5" type="array">
+      <obj_property name="ElementShortName">c5[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c5[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/c6" type="array">
+      <obj_property name="ElementShortName">c6[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c6[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/c7" type="array">
+      <obj_property name="ElementShortName">c7[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c7[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/c8" type="array">
+      <obj_property name="ElementShortName">c8[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c8[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/c9" type="array">
+      <obj_property name="ElementShortName">c9[31:0]</obj_property>
+      <obj_property name="ObjectShortName">c9[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/en_ab" type="array">
+      <obj_property name="ElementShortName">en_ab[2:0]</obj_property>
+      <obj_property name="ObjectShortName">en_ab[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/i" type="array">
+      <obj_property name="ElementShortName">i[5:0]</obj_property>
+      <obj_property name="ObjectShortName">i[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/DUT_combined/DUT_NPU/ack" type="logic">
+      <obj_property name="ElementShortName">ack</obj_property>
+      <obj_property name="ObjectShortName">ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/btb_addr" type="array">
+      <obj_property name="ElementShortName">btb_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">btb_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/btb_init" type="array">
+      <obj_property name="ElementShortName">btb_init[39:0]</obj_property>
+      <obj_property name="ObjectShortName">btb_init[39:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/bht_addr" type="array">
+      <obj_property name="ElementShortName">bht_addr[7:0]</obj_property>
+      <obj_property name="ObjectShortName">bht_addr[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/bht_init" type="array">
+      <obj_property name="ElementShortName">bht_init[1:0]</obj_property>
+      <obj_property name="ObjectShortName">bht_init[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/reg_addr" type="array">
+      <obj_property name="ElementShortName">reg_addr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_addr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/reg_init" type="array">
+      <obj_property name="ElementShortName">reg_init[31:0]</obj_property>
+      <obj_property name="ObjectShortName">reg_init[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/mem_addr" type="array">
+      <obj_property name="ElementShortName">mem_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/mem_init" type="array">
+      <obj_property name="ElementShortName">mem_init[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_init[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/en_npu" type="logic">
+      <obj_property name="ElementShortName">en_npu</obj_property>
+      <obj_property name="ObjectShortName">en_npu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/back_to_cpu" type="logic">
+      <obj_property name="ElementShortName">back_to_cpu</obj_property>
+      <obj_property name="ObjectShortName">back_to_cpu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_combined/i" type="array">
+      <obj_property name="ElementShortName">i[31:0]</obj_property>
+      <obj_property name="ObjectShortName">i[31:0]</obj_property>
+   </wvobject>
+</wave_config>
